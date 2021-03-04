@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #F5F5F5;
+}
+#close {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-size: 20px;
+  background: transparent;
+  padding: 7px 14px 7px 14px;
+  color: #000000;
+  font-weight: bold;
+  user-select: none;
+  border: none;
+  outline: none;
+}
+#res {
+  color: #000000;
+  font-size: 22px;
+}
+ul#bucket {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+#bucket li {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+#bucket li a {
+  max-width: 100%;
+  height: auto;
+}
+#overlay {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  display: none;
+  padding: 60px 5px 20px 5px;
+  margin: auto;
+  margin-top: 50%;
+  background: #E0E0E0;
+  border-radius: 0;
+  color: #ffffff;
+  text-align: center;
+  z-index: 99999;
+}
+.row {
+  display: block;
+  margin: auto;
+}
+.iLogo {
+  width: 30vw;
+  margin-top: 2vw;
+  margin-left: 2.1vw;
+  padding: 0; 
+  align: center;
+  border-radius: 2%;
+}
+.iLogo:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+  border-radius: 50%; 
+}
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none; 
+}
+
+#footer {
+  margin-top: 10%;
+  display: block;
+  padding: 15px 0px 15px 0px;
+  background: #212121;
+}
+.credit {
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  user-select: none;
+}
+.credit a {
+  color: #FFFFFF;
+}
